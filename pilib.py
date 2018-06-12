@@ -113,7 +113,7 @@ root.title(" CENTRAL LIBRARY NATIONAL INSTITUTE OF TECHNOLOGY, CALICUT")
 root.geometry('800x480')
 myFont1 = tkFont.Font(family = 'Helvetica', size = 16, weight = 'bold')
 myFont = tkFont.Font(family = 'Helvetica', size = 12, weight = 'bold')
-photo = PhotoImage(file = "~/Music/nitl.png")
+photo = PhotoImage(file = "~/Music/nitl.png")                            # IMAGE  FILE PATH 
 status = Label(root, text = "Press the respective number for returning the same number of books " , font = myFont ,bd =1 , relief = SUNKEN, anchor = S)
 status.pack(side = BOTTOM)
 label = Label(root,image=photo)
